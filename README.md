@@ -2,7 +2,7 @@
 
 ## CSS Code Storage
 
-- In this repository I will store the CSS Code of my templates, in case the Stylish Extension will not be available in the future.
+- In this repository I am storing the CSS Code of my templates, in case the Stylish Extension will not be available in the future.
 
 ## Info
 
