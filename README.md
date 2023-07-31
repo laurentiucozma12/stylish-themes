@@ -16,6 +16,6 @@
 
 ```css
 @-moz-document domain("SomeWebSite.com") {
-  /* Your CSS Code */
+  /* Your CSS Code  */
 }
 ```
