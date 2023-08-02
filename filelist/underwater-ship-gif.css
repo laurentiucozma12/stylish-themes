@@ -1,123 +1,88 @@
 @-moz-document domain("filelist.io") {
-  /* 
-    Contact: laurentiucozma12@gmail.com 
-    GitHub: https://github.com/laurentiucozma12
-  */
+/* 
+  Contact: laurentiucozma12@gmail.com 
+  GitHub: https://github.com/laurentiucozma12
+*/   
 
-  html {
-    background: url("https://media3.giphy.com/media/orChCDvxFhVPkL9UQC/giphy.gif")
-      no-repeat center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
+html {
+  background: url('https://github.com/laurentiucozma12/stylish-themes/blob/master/filelist/underwater-ship.gif?raw=true') no-repeat center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+body {
+  background: none; }
+#wrapper {
+  background: none; }
+.mainheader {
+  background: none; }
+.statusbar {
+  background-color: #264263af;
+  box-shadow: 0 0 10px 1px #25455aaf;
+  border:  0;
+  padding: 1rem;    
+  margin-top: 35px;
+  width: fit-content; }
+#navigation {
+border: 0;
+  background-color: #264263af;
+  box-shadow: 0 0 10px 1px #25455aaf; }
+#nav ul li a {
+color: #e9e9e9af; }
+#nav ul li.active, #nav ul li a:hover, #nav ul li.active a {
+color: white;
+transition: 0.7s; }
+.status_avatar { 
+  display: none; }
+font, span, .statusbar a {
+color: black;
+font-weight: 900; }
+.nblock-headerleft,
+.nblock-header,
+.nblock-headerright,
+.nblock-content,
+.nblock-bottom,
+.sblock-headerleft,
+.sblock-header,
+.sblock-headerright,
+.sblock-content,
+.sblock-bottom,
+.cblock-headerleft,
+.cblock-header,
+.cblock-headerright,
+.cblock-top, 
+.cblock-content, 
+.cblock-bottom,
+#footer {
+  border: 0;
+  background: #264263af !important;
+  box-shadow: 0 0 10px 1px #25455aaf; }
+.cblock-content,
+.sblock-header,
+.nblock-header,
+.nblock-content,
+.cblock-header {
+width: 100% !important; }
+.sblock-headerleft,
+.nblock-headerright, 
+.sblock-headerright, 
+.sblock-bottom,
+.nblock-headerleft,
+.cblock-headerleft,
+.cblock-bottom,
+.cblock-headerright,
+.nblock-bottom {  
+  width: 0 !important; }
+.nblock-bottom {
+width: 684px; }
+.colhead {
+border: 0;
+background: transparent; }
+.cblock-innercontent .colhead {
+border: 1px solid #444;
+background: transparent; }
+#copyright {  
+  border-top: 1px solid #17253f;
+  background: #264263af; }
 
-  body {
-    background: none;
-  }
-
-  #wrapper {
-    background: none;
-  }
-
-  .mainheader {
-    background: none;
-  }
-
-  .statusbar {
-    background-color: #264263af;
-    box-shadow: 0 0 10px 1px #25455aaf;
-    border: 0;
-    padding: 1rem;
-    margin-top: 35px;
-    width: fit-content;
-  }
-
-  #navigation {
-    border: 0;
-    background-color: #264263af;
-    box-shadow: 0 0 10px 1px #25455aaf;
-  }
-
-  #nav ul li a {
-    color: #e9e9e9af;
-  }
-
-  #nav ul li.active,
-  #nav ul li a:hover,
-  #nav ul li.active a {
-    color: white;
-    transition: 0.7s;
-  }
-
-  .status_avatar {
-    display: none;
-  }
-
-  font,
-  span,
-  .statusbar a {
-    color: black;
-    font-weight: 900;
-  }
-
-  .nblock-headerleft,
-  .nblock-header,
-  .nblock-headerright,
-  .nblock-content,
-  .nblock-bottom,
-  .sblock-headerleft,
-  .sblock-header,
-  .sblock-headerright,
-  .sblock-content,
-  .sblock-bottom,
-  .cblock-headerleft,
-  .cblock-header,
-  .cblock-headerright,
-  .cblock-top,
-  .cblock-content,
-  .cblock-bottom,
-  #footer {
-    border: 0;
-    background: #264263af !important;
-    box-shadow: 0 0 10px 1px #25455aaf;
-  }
-
-  .cblock-content,
-  .sblock-header,
-  .nblock-header,
-  .nblock-content,
-  .cblock-header {
-    width: 100% !important;
-  }
-
-  .sblock-headerleft,
-  .nblock-headerright,
-  .sblock-headerright,
-  .sblock-bottom,
-  .nblock-headerleft,
-  .cblock-headerleft,
-  .cblock-bottom,
-  .cblock-headerright,
-  .nblock-bottom {
-    width: 0 !important;
-  }
-
-  .nblock-bottom {
-    width: 684px;
-  }
-  .colhead {
-    border: 0;
-    background: transparent;
-  }
-  .cblock-innercontent .colhead {
-    border: 1px solid #444;
-    background: transparent;
-  }
-
-  #copyright {
-    border-top: 1px solid #17253f;
-    background: #264263af;
-  }
 }
