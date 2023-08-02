@@ -7,15 +7,3 @@
 ## Info
 
 - [My Stylish Profile](https://userstyles.org/user-profile/3767261)
-- Contact: laurentiucozma12@gmail.com
-
-## How to add CSS Code
-
-- Write the name of the WebSite in the domain() method
-- Start CSS Coding
-
-```css
-@-moz-document domain("SomeWebSite.com") {
-  /* Your CSS Code */
-}
-```

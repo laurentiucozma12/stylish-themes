@@ -1,0 +1,77 @@
+@-moz-document domain("filelist.io") {
+  html {
+    background: url("https://i.imgur.com/ogasYjo.png") no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  body {
+    background: none;
+  }
+  #wrapper {
+    background: none;
+  }
+  .mainheader {
+    background: none;
+  }
+  .status_avatar {
+    display: none;
+  }
+  .statusbar {
+    border: 0;
+    padding: 1rem;
+    margin-top: 35px;
+    width: fit-content;
+  }
+  .nblock-headerleft,
+  .nblock-header,
+  .nblock-headerright,
+  .nblock-content,
+  .nblock-bottom,
+  .sblock-headerleft,
+  .sblock-header,
+  .sblock-headerright,
+  .sblock-content,
+  .sblock-bottom,
+  .cblock-headerleft,
+  .cblock-header,
+  .cblock-headerright,
+  .cblock-top,
+  .cblock-content,
+  .cblock-bottom,
+  #footer {
+    border: 0;
+  }
+  .cblock-content,
+  .sblock-header,
+  .nblock-header,
+  .nblock-content,
+  .cblock-header {
+    width: 100% !important;
+  }
+  .sblock-headerleft,
+  .nblock-headerright,
+  .sblock-headerright,
+  .sblock-bottom,
+  .nblock-headerleft,
+  .cblock-headerleft,
+  .cblock-bottom,
+  .cblock-headerright,
+  .nblock-bottom {
+    width: 0 !important;
+  }
+  .nblock-bottom {
+    width: 684px;
+  }
+  .colhead {
+    border: 0;
+    background: transparent;
+  }
+  .cblock-innercontent .colhead {
+    border: 1px;
+  }
+  #copyright {
+    border-top: 1px;
+  }
+}
