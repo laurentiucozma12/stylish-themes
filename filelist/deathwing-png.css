@@ -1,6 +1,6 @@
 @-moz-document domain("filelist.io") {
   html {
-    background: url("https://i.imgur.com/Q9mVeKp.png") no-repeat center fixed;
+    background: url("https://i.imgur.com/LB0Prwa.png") no-repeat center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -19,10 +19,49 @@
     display: none;
   }
   .statusbar {
+    background-color: #811c1caf;
+    box-shadow: 0 0 10px 1px #811c1caf;
     border: 0;
     padding: 1rem;
     margin-top: 35px;
     width: fit-content;
+  }
+  #navigation {
+    border: 0;
+    background-color: #811c1caf;
+    box-shadow: 0 0 10px 1px #811c1caf;
+  }
+  #nav ul li a {
+    color: #e9e9e9af;
+  }
+  #nav ul li.active,
+  #nav ul li a:hover,
+  #nav ul li.active a {
+    color: white !important;
+    transition: 0.7s;
+  }
+  font,
+  span,
+  .statusbar a {
+    color: white !important;
+    font-weight: 900;
+  }
+  a {
+    color: white !important;
+  }
+  .pager a,
+  .pager a:link {
+    background-color: #811c1caf !important;
+  }
+  .pager span.current {
+    background-color: #cc0b0baf !important;
+    cursor: pointer !important;
+  }
+  fieldset {
+    background-color: #cc0b0baf !important;
+  }
+  #sectionmain .sectiontitle {
+    background-color: #cc0b0baf !important;
   }
   .nblock-headerleft,
   .nblock-header,
@@ -42,6 +81,8 @@
   .cblock-bottom,
   #footer {
     border: 0;
+    background: #811c1caf !important;
+    box-shadow: 0 0 10px 1px #811c1caf;
   }
   .cblock-content,
   .sblock-header,
@@ -65,13 +106,16 @@
     width: 684px;
   }
   .colhead {
+    color: white !important;
     border: 0;
     background: transparent;
   }
   .cblock-innercontent .colhead {
-    border: 1px;
+    border: 1px solid #811c1caf;
+    background: transparent;
   }
   #copyright {
-    border-top: 1px;
+    border-top: 1px solid #811c1caf;
+    background: #811c1caf;
   }
 }

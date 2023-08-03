@@ -15,9 +15,12 @@
   .mainheader {
     background: none;
   }
+  .status_avatar {
+    display: none;
+  }
   .statusbar {
     background-color: #264263af;
-    box-shadow: 0 0 10px 1px #25455aaf;
+    box-shadow: 0 0 10px 1px #264263af;
     border: 0;
     padding: 1rem;
     margin-top: 35px;
@@ -26,7 +29,7 @@
   #navigation {
     border: 0;
     background-color: #264263af;
-    box-shadow: 0 0 10px 1px #25455aaf;
+    box-shadow: 0 0 10px 1px #264263af;
   }
   #nav ul li a {
     color: #e9e9e9af;
@@ -34,17 +37,31 @@
   #nav ul li.active,
   #nav ul li a:hover,
   #nav ul li.active a {
-    color: white;
+    color: white !important;
     transition: 0.7s;
-  }
-  .status_avatar {
-    display: none;
   }
   font,
   span,
   .statusbar a {
-    color: black;
+    color: white !important;
     font-weight: 900;
+  }
+  a {
+    color: white !important;
+  }
+  .pager a,
+  .pager a:link {
+    background-color: #264263af !important;
+  }
+  .pager span.current {
+    background-color: #244872ce !important;
+    cursor: pointer !important;
+  }
+  fieldset {
+    background-color: #244872ce !important;
+  }
+  #sectionmain .sectiontitle {
+    background-color: #244872ce !important;
   }
   .nblock-headerleft,
   .nblock-header,
@@ -65,7 +82,7 @@
   #footer {
     border: 0;
     background: #264263af !important;
-    box-shadow: 0 0 10px 1px #25455aaf;
+    box-shadow: 0 0 10px 1px #264263af;
   }
   .cblock-content,
   .sblock-header,
@@ -89,15 +106,16 @@
     width: 684px;
   }
   .colhead {
+    color: white !important;
     border: 0;
     background: transparent;
   }
   .cblock-innercontent .colhead {
-    border: 1px solid #444;
+    border: 1px solid #264263af;
     background: transparent;
   }
   #copyright {
-    border-top: 1px solid #17253f;
+    border-top: 1px solid #264263af;
     background: #264263af;
   }
 }
