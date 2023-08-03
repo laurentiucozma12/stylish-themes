@@ -19,8 +19,8 @@
     display: none;
   }
   .statusbar {
-    background-color: #264263af;
-    box-shadow: 0 0 10px 1px #264263af;
+    background-color: #10536b8f;
+    box-shadow: 0 0 10px 1px #10536b8f;
     border: 0;
     padding: 1rem;
     margin-top: 35px;
@@ -28,8 +28,8 @@
   }
   #navigation {
     border: 0;
-    background-color: #264263af;
-    box-shadow: 0 0 10px 1px #264263af;
+    background-color: #10536b8f;
+    box-shadow: 0 0 10px 1px #10536b8f;
   }
   #nav ul li a {
     color: #e9e9e9af;
@@ -51,17 +51,17 @@
   }
   .pager a,
   .pager a:link {
-    background-color: #264263af !important;
+    background-color: #10536b8f !important;
   }
   .pager span.current {
-    background-color: #244872ce !important;
+    background-color: #0c6180ab !important;
     cursor: pointer !important;
   }
   fieldset {
-    background-color: #244872ce !important;
+    background-color: #0c6180ab !important;
   }
   #sectionmain .sectiontitle {
-    background-color: #244872ce !important;
+    background-color: #0c6180ab !important;
   }
   .nblock-headerleft,
   .nblock-header,
@@ -81,8 +81,8 @@
   .cblock-bottom,
   #footer {
     border: 0;
-    background: #264263af !important;
-    box-shadow: 0 0 10px 1px #264263af;
+    background: #10536b8f !important;
+    box-shadow: 0 0 10px 1px #10536b8f;
   }
   .cblock-content,
   .sblock-header,
@@ -111,11 +111,11 @@
     background: transparent;
   }
   .cblock-innercontent .colhead {
-    border: 1px solid #264263af;
+    border: 1px solid #10536b8f;
     background: transparent;
   }
   #copyright {
-    border-top: 1px solid #264263af;
-    background: #264263af;
+    border-top: 1px solid #10536b8f;
+    background: #10536b8f;
   }
 }
