@@ -19,8 +19,8 @@
     display: none;
   }
   .statusbar {
-    background-color: #cd6816af;
-    box-shadow: 0 0 10px 1px #cd6816af;
+    background-color: #fe5f154d;
+    box-shadow: 0 0 10px 1px #fe5f155d;
     border: 0;
     padding: 1rem;
     margin-top: 35px;
@@ -28,8 +28,8 @@
   }
   #navigation {
     border: 0;
-    background-color: #cd6816af;
-    box-shadow: 0 0 10px 1px #cd6816af;
+    background-color: #fe5f154d;
+    box-shadow: 0 0 10px 1px #fe5f154d;
   }
   #nav ul li a {
     color: #e9e9e9af;
@@ -51,17 +51,17 @@
   }
   .pager a,
   .pager a:link {
-    background-color: #cd6816af !important;
+    background-color: #fe5f154d !important;
   }
   .pager span.current {
-    background-color: #cc720baf !important;
+    background-color: #e72b125b !important;
     cursor: pointer !important;
   }
   fieldset {
-    background-color: #cc720baf !important;
+    background-color: #e72b125b !important;
   }
   #sectionmain .sectiontitle {
-    background-color: #cc720baf !important;
+    background-color: #e72b125b !important;
   }
   .nblock-headerleft,
   .nblock-header,
@@ -81,8 +81,8 @@
   .cblock-bottom,
   #footer {
     border: 0;
-    background: #cd6816af !important;
-    box-shadow: 0 0 10px 1px #cd6816af;
+    background: #fe5f154d !important;
+    box-shadow: 0 0 10px 1px #fe5f154d;
   }
   .cblock-content,
   .sblock-header,
@@ -111,11 +111,11 @@
     background: transparent;
   }
   .cblock-innercontent .colhead {
-    border: 1px solid #cd6816af;
+    border: 1px solid #fe5f154d;
     background: transparent;
   }
   #copyright {
-    border-top: 1px solid #cd6816af;
-    background: #cd6816af;
+    border-top: 1px solid #fe5f154d;
+    background: #fe5f154d;
   }
 }

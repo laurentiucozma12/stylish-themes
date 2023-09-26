@@ -1,6 +1,6 @@
 @-moz-document domain("filelist.io") {
   html {
-    background: url("https://img.goodfon.com/original/1920x918/6/7e/world-of-warcraft-sylvanas-windrunner-worgen-dragons-girl-cr.jpg") no-repeat center fixed;
+    background: url("https://i.imgur.com/IQFnaCj.jpg") no-repeat center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -19,8 +19,8 @@
     display: none;
   }
   .statusbar {
-    background-color: #8f0b2c57;
-    box-shadow: 0 0 10px 1px #8f0b2c57;
+    background-color: #1c1c1c44;
+    box-shadow: 0 0 10px 1px #1c1c1c44;
     border: 0;
     padding: 1rem;
     margin-top: 35px;
@@ -28,8 +28,8 @@
   }
   #navigation {
     border: 0;
-    background-color: #8f0b2c57;
-    box-shadow: 0 0 10px 1px #8f0b2c57;
+    background-color: #1c1c1c44;
+    box-shadow: 0 0 10px 1px #1c1c1c44;
   }
   #nav ul li a {
     color: #e9e9e9af;
@@ -51,17 +51,17 @@
   }
   .pager a,
   .pager a:link {
-    background-color: #8f0b2c57 !important;
+    background-color: #1c1c1c44 !important;
   }
   .pager span.current {
-    background-color: #7506416d !important;
+    background-color: #15151584 !important;
     cursor: pointer !important;
   }
   fieldset {
-    background-color: #7506416d !important;
+    background-color: #15151584 !important;
   }
   #sectionmain .sectiontitle {
-    background-color: #7506416d !important;
+    background-color: #15151584 !important;
   }
   .nblock-headerleft,
   .nblock-header,
@@ -81,8 +81,8 @@
   .cblock-bottom,
   #footer {
     border: 0;
-    background: #8f0b2c57 !important;
-    box-shadow: 0 0 10px 1px #8f0b2c57;
+    background: #1c1c1c44 !important;
+    box-shadow: 0 0 10px 1px #1c1c1c44;
   }
   .cblock-content,
   .sblock-header,
@@ -111,11 +111,11 @@
     background: transparent;
   }
   .cblock-innercontent .colhead {
-    border: 1px solid #8f0b2c57;
+    border: 1px solid #1c1c1c44;
     background: transparent;
   }
   #copyright {
-    border-top: 1px solid #8f0b2c57;
-    background: #8f0b2c57;
+    border-top: 1px solid #1c1c1c44;
+    background: #1c1c1c44;
   }
 }

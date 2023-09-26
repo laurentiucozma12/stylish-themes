@@ -19,8 +19,8 @@
     display: none;
   }
   .statusbar {
-    background-color: #2f081db0;
-    box-shadow: 0 0 10px 1px #2f081db0;
+    background-color: #2f081d4d;
+    box-shadow: 0 0 10px 1px #2f081d4d;
     border: 0;
     padding: 1rem;
     margin-top: 35px;
@@ -28,8 +28,8 @@
   }
   #navigation {
     border: 0;
-    background-color: #2f081db0;
-    box-shadow: 0 0 10px 1px #2f081db0;
+    background-color: #2f081d4d;
+    box-shadow: 0 0 10px 1px #2f081d4d;
   }
   #nav ul li a {
     color: #e9e9e9af;
@@ -51,17 +51,17 @@
   }
   .pager a,
   .pager a:link {
-    background-color: #2f081db0 !important;
+    background-color: #2f081d4d !important;
   }
   .pager span.current {
-    background-color: #3d0724c4 !important;
+    background-color: #3d07247d !important;
     cursor: pointer !important;
   }
   fieldset {
-    background-color: #3d0724c4 !important;
+    background-color: #3d07247d !important;
   }
   #sectionmain .sectiontitle {
-    background-color: #3d0724c4 !important;
+    background-color: #3d07247d !important;
   }
   .nblock-headerleft,
   .nblock-header,
@@ -81,8 +81,8 @@
   .cblock-bottom,
   #footer {
     border: 0;
-    background: #2f081db0 !important;
-    box-shadow: 0 0 10px 1px #2f081db0;
+    background: #2f081d4d !important;
+    box-shadow: 0 0 10px 1px #2f081d4d;
   }
   .cblock-content,
   .sblock-header,
@@ -111,11 +111,11 @@
     background: transparent;
   }
   .cblock-innercontent .colhead {
-    border: 1px solid #2f081db0;
+    border: 1px solid #2f081d4d;
     background: transparent;
   }
   #copyright {
-    border-top: 1px solid #2f081db0;
-    background: #2f081db0;
+    border-top: 1px solid #2f081d4d;
+    background: #2f081d4d;
   }
 }
